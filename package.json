@@ -1,17 +1,26 @@
 {
   "name": "@tenders-sa-org/widget-intel",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0",
   "description": "Tenders-SA Intelligence Widgets - Shadow DOM-based embeddable procurement intelligence widgets",
   "homepage": "https://tenders-sa.org/publishers/developers",
-  "bugs": { "url": "https://github.com/Tenders-SA/widget-intel/issues" },
+  "bugs": {
+    "url": "https://github.com/Tenders-SA/widget-intel/issues"
+  },
   "license": "MIT",
   "author": "Tenders-SA (https://tenders-sa.org)",
-  "repository": { "type": "git", "url": "git+https://github.com/Tenders-SA/widget-intel.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tenders-SA/widget-intel.git"
+  },
   "type": "module",
   "main": "./dist/widget-intel.global.js",
   "module": "./dist/widget-intel.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -19,8 +28,12 @@
     "test": "vitest run",
     "prepublishOnly": "npm run build"
   },
-  "publishConfig": { "access": "public" },
-  "engines": { "node": ">=18" },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "packageManager": "npm@11+",
   "devDependencies": {
     "@types/node": "^25.9.1",
