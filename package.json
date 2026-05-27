@@ -1,6 +1,6 @@
 {
   "name": "@tenders-sa-org/widget-intel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tenders-SA Intelligence Widgets - Shadow DOM-based embeddable procurement intelligence widgets",
   "homepage": "https://tenders-sa.org/publishers/developers",
   "bugs": {
