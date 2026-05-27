@@ -7,7 +7,7 @@
 ### Script tag (CDN)
 
 ```html
-<script src="https://cdn.tenders-sa.org/widgets/widget-intel.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/@tenders-sa-org/widget-intel@latest/dist/widget-intel.global.js" async></script>
 ```
 
 ### npm

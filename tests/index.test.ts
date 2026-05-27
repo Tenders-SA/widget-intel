@@ -26,9 +26,9 @@ describe('api', () => {
     })
 
     it('extracts origin from script src attribute', () => {
-      const script = createScriptTag('https://cdn.tenders-sa.org/widgets/widget-intel.js')
+      const script = createScriptTag('https://unpkg.com/@tenders-sa-org/widget-intel@latest/dist/widget-intel.global.js')
       document.head.appendChild(script)
-      expect(getBaseUrl()).toBe('https://cdn.tenders-sa.org')
+      expect(getBaseUrl()).toBe('https://unpkg.com')
       script.remove()
     })
 
