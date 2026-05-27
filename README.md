@@ -1,4 +1,4 @@
-# @tendersa/widget-intel
+# @tenders-sa-org/widget-intel
 
 **Tenders-SA Intelligence Widgets** — Shadow DOM-based embeddable procurement intelligence widgets. Vanilla JS, zero framework dependencies, self-initializing.
 
@@ -13,13 +13,13 @@
 ### npm
 
 ```bash
-npm install @tendersa/widget-intel
+npm install @tenders-sa-org/widget-intel
 ```
 
 Then import and call `init()`:
 
 ```js
-import { init } from '@tendersa/widget-intel'
+import { init } from '@tenders-sa-org/widget-intel'
 init()
 ```
 
@@ -112,7 +112,7 @@ Shows all province health scores in a responsive grid, color-coded by status.
 ## JavaScript API
 
 ```js
-import { init, scanWidgets, TsaBadge, TsaHealthBar, TsaFeed, TsaTicker, TsaHeatmap } from '@tendersa/widget-intel'
+import { init, scanWidgets, TsaBadge, TsaHealthBar, TsaFeed, TsaTicker, TsaHeatmap } from '@tenders-sa-org/widget-intel'
 
 // Manually re-scan for widgets
 scanWidgets()
